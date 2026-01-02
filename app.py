@@ -59,7 +59,6 @@ view_id_name_mapping = {
     "429575403": "Travel by India"
 }
 
-
 # -------------------------------------------------
 # RAW REGEX → SITE TABLE (ALL PROVIDED ROWS)
 # -------------------------------------------------
@@ -83,7 +82,6 @@ SITE_REGEX_ROWS = [
     (".*(/auto-news/).*", "Zee Hindi"),
     (".*(/explainer/).*", "Zee Hindi"),
     (".*(/crime/).*", "Zee Hindi"),
-
     (".*(/india/).*", "Zee English"),
     (".*(/lifestyle/).*", "Zee English"),
     (".*(/sports/).*", "Zee English"),
@@ -107,7 +105,6 @@ SITE_REGEX_ROWS = [
     (".*(/culture/).*", "Zee English"),
     (".*(/tags/).*", "Zee English"),
     (".*(/viral/).*", "Zee English"),
-
     (".*(/business/).*", "Zee Kannada"),
     (".*(/Entertainment/).*", "Zee Kannada"),
     (".*(/health/).*", "Zee Kannada"),
@@ -117,14 +114,12 @@ SITE_REGEX_ROWS = [
     (".*(/sports/).*", "Zee Kannada"),
     (".*(/viral/).*", "Zee Kannada"),
     (".*(/world/).*", "Zee Kannada"),
-
     (".*(/astrology-religion/).*", "Zee Malayalam"),
     (".*(/business/).*", "Zee Malayalam"),
     (".*(/health-lifestyle/).*", "Zee Malayalam"),
     (".*(/India/).*", "Zee Malayalam"),
     (".*(/Kerala/).*", "Zee Malayalam"),
     (".*(/photo-gallery/).*", "Zee Malayalam"),
-
     (".*(/business-news/).*", "Zee Tamil"),
     (".*(/india/).*", "Zee Tamil"),
     (".*(/lifestyle/).*", "Zee Tamil"),
@@ -135,7 +130,6 @@ SITE_REGEX_ROWS = [
     (".*(/tamil-nadu/).*", "Zee Tamil"),
     (".*(/technology/).*", "Zee Tamil"),
     (".*(/health/).*", "Zee Tamil"),
-
     (".*(/india/).*", "Zee Telugu"),
     (".*(/lifestyle/).*", "Zee Telugu"),
     (".*(/photo-gallery/).*", "Zee Telugu"),
@@ -145,7 +139,6 @@ SITE_REGEX_ROWS = [
     (".*(/business/).*", "Zee Telugu"),
     (".*(/entertainment/).*", "Zee Telugu"),
     (".*(/health/).*", "Zee Telugu"),
-
     (".*(/stock-markets/).*", "Zee Biz Hindi"),
     (".*(/personal-finance/).*", "Zee Biz Hindi"),
     (".*(/real-estate/).*", "Zee Biz Hindi"),
@@ -159,7 +152,6 @@ SITE_REGEX_ROWS = [
     (".*(/economy/).*", "Zee Biz Hindi"),
     (".*(/india/).*", "Zee Biz Hindi"),
     (".*(/travel/).*", "Zee Biz Hindi"),
-
     (".*(/companies/).*", "Zee Biz English"),
     (".*(/economy-infra/).*", "Zee Biz English"),
     (".*(/india/).*", "Zee Biz English"),
@@ -172,7 +164,6 @@ SITE_REGEX_ROWS = [
     (".*(/budget).*", "Zee Biz English"),
     (".*(/brand-desk/).*", "Zee Biz English"),
     (".*(/agencies/).*", "Zee Biz English"),
-
     (".*(/photo-gallery/).*", "Zee Gujarati"),
     (".*(/gujarat/).*", "Zee Gujarati"),
     (".*(/business/).*", "Zee Gujarati"),
@@ -190,7 +181,6 @@ SITE_REGEX_ROWS = [
     (".*(/relationship/).*", "Zee Gujarati"),
     (".*(/tags/).*", "Zee Gujarati"),
     (".*(/jobs/).*", "Zee Gujarati"),
-
     (".*(/entertainment/).*", "Zee Marathi"),
     (".*(/health/).*", "Zee Marathi"),
     (".*(/india/).*", "Zee Marathi"),
@@ -204,7 +194,6 @@ SITE_REGEX_ROWS = [
     (".*(/world/).*", "Zee Marathi"),
     (".*(/konkan/).*", "Zee Marathi"),
     (".*(/tags/).*", "Zee Marathi"),
-
     (".*(/photo-gallery/).*", "HealthSite Hindi"),
     (".*(/diseases-conditions/).*", "HealthSite Hindi"),
     (".*(/diet/).*", "HealthSite Hindi"),
@@ -215,7 +204,6 @@ SITE_REGEX_ROWS = [
     (".*(/parenting/).*", "HealthSite Hindi"),
     (".*(/sexual-health/).*", "HealthSite Hindi"),
     (".*(/pregnancy/).*", "HealthSite Hindi"),
-
     (".*(/diseases-conditions/).*", "HealthSite English"),
     (".*(/news/).*", "HealthSite English"),
     (".*(/fitness/).*", "HealthSite English"),
@@ -226,7 +214,6 @@ SITE_REGEX_ROWS = [
     (".*(/sexual-health/).*", "HealthSite English"),
     (".*(/ayurveda/).*", "HealthSite English"),
     (".*(/videos/).*", "HealthSite English"),
-
     (".*(/viral-news/).*", "Zee Salaam"),
     (".*(/web-stories/).*", "Zee Salaam"),
     (".*(/news/).*", "Zee Salaam"),
@@ -241,7 +228,6 @@ SITE_REGEX_ROWS = [
     (".*(/israel-hamas-war/).*", "Zee Salaam"),
     (".*(/world-news/).*", "Zee Salaam"),
     (".*(/muslim-news/).*", "Zee Salaam"),
-
     (".*(/bollywood/).*", "DNA English"),
     (".*(/business/).*", "DNA English"),
     (".*(/cricket/).*", "DNA English"),
@@ -259,7 +245,6 @@ SITE_REGEX_ROWS = [
     (".*(/viral/).*", "DNA English"),
     (".*(/world/).*", "DNA English"),
     (".*(/health/).*", "DNA English"),
-
     (".*(/lifestyle/).*", "DNA Hindi"),
     (".*(/spiritual/).*", "DNA Hindi"),
     (".*(/education/).*", "DNA Hindi"),
@@ -274,7 +259,6 @@ SITE_REGEX_ROWS = [
     (".*(/world/).*", "DNA Hindi"),
     (".*(/dna-explainer/).*", "DNA Hindi"),
     (".*(/hind/$|/hindi$).*", "DNA Hindi"),
-
     (".*(^/$).*", "WION"),
     (".*(/business-economy/).*", "WION"),
     (".*(/entertainment/).*", "WION"),
@@ -294,7 +278,6 @@ SITE_REGEX_ROWS = [
     (".*(/life-fun/).*", "WION"),
     (".*(/food-recipe/).*", "WION"),
     (".*(/science-technology/).*", "WION"),
-
     (".*(^/$).*", "Techlusive English"),
     (".*(/apps/).*", "Techlusive English"),
     (".*(/artificial-intelligence/).*", "Techlusive English"),
@@ -311,7 +294,6 @@ SITE_REGEX_ROWS = [
     (".*(/reviews/).*", "Techlusive English"),
     (".*(/tag/).*", "Techlusive English"),
     (".*(/telecom/).*", "Techlusive English"),
-
     (".*(/automobile/).*", "Techlusive Hindi"),
     (".*(/best-deals/).*", "Techlusive Hindi"),
     (".*(/games/).*", "Techlusive Hindi"),
@@ -324,7 +306,6 @@ SITE_REGEX_ROWS = [
     (".*(/tips-and-tricks/).*", "Techlusive Hindi"),
     (".*(/webstories/).*", "Techlusive Hindi"),
     (".*(/apps/).*", "Techlusive Hindi"),
-
     (".*(/entertainment/).*", "Zee Bengali"),
     (".*(/health/).*", "Zee Bengali"),
     (".*(/kolkata/).*", "Zee Bengali"),
@@ -338,7 +319,6 @@ SITE_REGEX_ROWS = [
     (".*(/technology/).*", "Zee Bengali"),
     (".*(/videos/).*", "Zee Bengali"),
     (".*(/world/).*", "Zee Bengali"),
-
     (".*(/sports/).*", "ICOM English"),
     (".*(/news/).*", "ICOM English"),
     (".*(/entertainment/).*", "ICOM English"),
@@ -356,7 +336,6 @@ SITE_REGEX_ROWS = [
     (".*(/astrology/).*", "ICOM English"),
     (".*(/technology).*", "ICOM English"),
     (".*(/topic/hot-sexy/).*", "ICOM English"),
-
     (".*(/business-hindi/).*", "ICOM Hindi"),
     (".*(/cricket-hindi/).*", "ICOM Hindi"),
     (".*(/entertainment-hindi/).*", "ICOM Hindi"),
@@ -369,7 +348,6 @@ SITE_REGEX_ROWS = [
     (".*(/travel/).*", "ICOM Hindi"),
     (".*(/viral/).*", "ICOM Hindi"),
     (".*(/world-hindi/).*", "ICOM Hindi"),
-
     (".*(/politics/).*", "Zee Bihar Jharkhand"),
     (".*(/patna/).*", "Zee Bihar Jharkhand"),
     (".*(/video/).*", "Zee Bihar Jharkhand"),
@@ -434,7 +412,6 @@ SITE_REGEX_ROWS = [
     (".*(/nalanda/).*", "Zee Bihar Jharkhand"),
     (".*(/supaul/).*", "Zee Bihar Jharkhand"),
     (".*(/lok-sabha-elections/).*", "Zee Bihar Jharkhand"),
-
     (".*(/hindi/zeeodisha/trending/).*", "Zee Odisha"),
     (".*(/hindi/zeeodisha/video/).*", "Zee Odisha"),
     (".*(/hindi/zeeodisha/astrology/).*", "Zee Odisha"),
@@ -448,7 +425,6 @@ SITE_REGEX_ROWS = [
     (".*(/zeeodisha/web-stories/spirituality/).*", "Zee Odisha"),
     (".*(/zeeodisha/web-stories/entertainment/).*", "Zee Odisha"),
     (".*(/hindi/zeeodisha/sports/).*", "Zee Odisha"),
-
     (".*(/hindi/india/rajasthan/web-stories/).*", "Zee Rajasthan"),
     (".*(/hindi/india/rajasthan/photo-gallery-).*", "Zee Rajasthan"),
     (".*(/hindi/india/rajasthan/jaipur/).*", "Zee Rajasthan"),
@@ -465,7 +441,6 @@ SITE_REGEX_ROWS = [
     (".*(/photos/sports/cricket/).*", "Zee Rajasthan"),
     (".*(/hindi/india/rajasthan/baran/).*", "Zee Rajasthan"),
     (".*(/hindi/india/rajasthan/live-updates/).*", "Zee Rajasthan"),
-
     (".*(/hindi/india/up-uttarakhand/lucknow/).*", "Zee UP UK"),
     (".*(/hindi/india/up-uttarakhand/kumbh-mela-).*", "Zee UP UK"),
     (".*(/hindi/india/up-uttarakhand/photo-gallery).*", "Zee UP UK"),
@@ -499,7 +474,6 @@ SITE_REGEX_ROWS = [
     (".*(/hindi/india/up-uttarakhand/jhansi/).*", "Zee UP UK"),
     (".*(/hindi/india/up-uttarakhand/up-politics/).*", "Zee UP UK"),
     (".*(/hindi/india/up-uttarakhand/mirzapur/).*", "Zee UP UK"),
-
     (".*(/hindi/zeephh/punjab).*", "Zee PHH"),
     (".*(/hindi/zeephh/religion/).*", "Zee PHH"),
     (".*(/hindi/zeephh/web-stories/).*", "Zee PHH"),
@@ -515,7 +489,6 @@ SITE_REGEX_ROWS = [
     (".*(/hindi/zeephh/politics/).*", "Zee PHH"),
     (".*(/hindi/zeephh/health/).*", "Zee PHH"),
     (".*(/hindi/zeephh/international/).*", "Zee PHH"),
-
     (".*(/hindi/zee-hindustan/national/).*", "Zee Hindustan"),
     (".*(/hindi/zee-hindustan/web-stories/).*", "Zee Hindustan"),
     (".*(/hindi/zee-hindustan/world-news/).*", "Zee Hindustan"),
@@ -527,7 +500,6 @@ SITE_REGEX_ROWS = [
     (".*(/hindi/zee-hindustan/entertainment/).*", "Zee Hindustan"),
     (".*(/web-stories/lifestyle/).*", "Zee Hindustan"),
     (".*(/web-stories/smart-buy/).*", "Zee Hindustan"),
-
     (".*(/photos/).*", "Bollywood Life English"),
     (".*(/bigg-boss-).*", "Bollywood Life English"),
     (".*(/news-gossip/).*", "Bollywood Life English"),
@@ -577,7 +549,6 @@ SITE_REGEX_ROWS = [
     (".*(/brand-solution/).*", "Bollywood Life English"),
     (".*(/news-gossip-buzz/).*", "Bollywood Life English"),
     (".*(/hi/bhojpuri/).*", "Bollywood Life English"),
-
     (".*(/photos/).*", "Bollywood Life Hindi"),
     (".*(/news-gossip/).*", "Bollywood Life Hindi"),
     (".*(/tv/).*", "Bollywood Life Hindi"),
@@ -593,7 +564,6 @@ SITE_REGEX_ROWS = [
     (".*(/hi/viral-stories/).*", "Bollywood Life Hindi"),
     (".*(/south-gossip/).*", "Bollywood Life Hindi"),
     (".*(/hi/hollywood/).*", "Bollywood Life Hindi"),
-
     (".*(/hindi/india/delhi-ncr-haryana/photo-gallery-).*", "Delhi NCR Harayana"),
     (".*(/hindi/india/delhi-ncr-haryana/ghaziabad).*", "Delhi NCR Harayana"),
     (".*(/hindi/india/delhi-ncr-haryana/loktantra/).*", "Delhi NCR Harayana"),
@@ -659,7 +629,6 @@ SITE_REGEX_ROWS = [
     (".*(/tags/).*", "Delhi NCR Harayana"),
     (".*(/cricket/).*", "Delhi NCR Harayana"),
     (".*(/photos/sports/).*", "Delhi NCR Harayana"),
-
     (".*(/web-stories/).*", "Zee MP CG"),
     (".*(/mp/).*", "Zee MP CG"),
     (".*(/chhattisgarh/).*", "Zee MP CG"),
@@ -720,14 +689,12 @@ SITE_REGEX_ROWS = [
     (".*(/cricket/).*", "Zee MP CG"),
     (".*(/photo-gallery/).*", "Zee MP CG"),
     (".*(/bilaspur/).*", "Zee MP CG"),
-
     (".*(/photos/).*", "CricketCountry Hindi"),
     (".*(/tag/).*", "CricketCountry Hindi"),
     (".*(/news/).*", "CricketCountry Hindi"),
     (".*(/articles/).*", "CricketCountry Hindi"),
     (".*(/videos/).*", "CricketCountry Hindi"),
     (".*(/webstories/).*", "CricketCountry Hindi"),
-
     (".*(/news/).*", "CricketCountry English"),
     (".*(/live-scores/).*", "CricketCountry English"),
     (".*(/moments-in-history/).*", "CricketCountry English"),
@@ -796,19 +763,29 @@ selected_sites = st.sidebar.multiselect(
 )
 
 # -------------------------------------------------
-# DYNAMIC CATEGORY DROPDOWN (SITE-WISE)
+# DYNAMIC CATEGORY DROPDOWN (SITE-WISE) WITH "SELECT ALL"
 # -------------------------------------------------
 st.sidebar.header("📂 Categories (Regex)")
-
 available_categories = set()
 for pid in selected_sites:
     site = view_id_name_mapping[pid]
     available_categories.update(SITE_CATEGORY_MAP.get(site, []))
 
+sorted_categories = sorted(available_categories)
+if sorted_categories:
+    select_all_option = "[Select All]"
+    category_options = [select_all_option] + sorted_categories
+else:
+    category_options = sorted_categories
+
 selected_categories = st.sidebar.multiselect(
     "Select Category Regex",
-    options=sorted(available_categories)
+    options=category_options
 )
+
+# Handle "[Select All]" logic
+if "[Select All]" in selected_categories:
+    selected_categories = sorted_categories
 
 st.sidebar.header("🔎 Manual Regex (Optional)")
 regex_input = st.sidebar.text_area(
@@ -843,10 +820,8 @@ def fetch_ga4_data(client, property_id, site, regex, start_date, end_date):
             )
         )
     )
-
     response = client.run_report(request)
     data = []
-
     for row in response.rows:
         data.append({
             "Site": site,
@@ -855,7 +830,6 @@ def fetch_ga4_data(client, property_id, site, regex, start_date, end_date):
             "Pageviews": int(row.metric_values[1].value),
             "Regex": regex
         })
-
     return data
 
 # -------------------------------------------------
@@ -874,22 +848,16 @@ if fetch_btn:
                 json.loads(cred_file.getvalue().decode("utf-8")),
                 scopes=["https://www.googleapis.com/auth/analytics.readonly"]
             )
-
             client = BetaAnalyticsDataClient(credentials=credentials)
-
             manual_regex_list = [
                 r.strip() for r in regex_input.splitlines() if r.strip()
             ]
-
             final_data = []
-
             for pid in selected_sites:
                 site = view_id_name_mapping[pid]
                 site_regex = set(SITE_CATEGORY_MAP.get(site, []))
-
                 valid_regex = site_regex.intersection(selected_categories)
                 valid_regex.update(manual_regex_list)
-
                 for regex in valid_regex:
                     final_data.extend(
                         fetch_ga4_data(
@@ -901,12 +869,10 @@ if fetch_btn:
                             end_date
                         )
                     )
-
             if final_data:
                 df = pd.DataFrame(final_data)
                 st.success(f"✅ {len(df)} rows fetched")
                 st.dataframe(df, use_container_width=True)
-
                 st.download_button(
                     "⬇️ Download CSV",
                     df.to_csv(index=False),
